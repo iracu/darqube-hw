@@ -1,0 +1,14 @@
+.layout {
+  max-width: 1377px;
+  width: 100%;
+  margin: 40px auto 45px;
+}
+
+.layoutWrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.newsContainer {
+  flex: 1;
+}

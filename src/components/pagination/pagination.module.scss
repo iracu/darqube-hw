@@ -1,0 +1,25 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.paginationCount {
+  span {
+    opacity: 0.25;
+  }
+}
+
+.paginationAction {
+  button {
+    margin-left: 10px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 7px 32px;
+    line-height: 11px;
+    border-radius: 60px;
+    text-transform: uppercase;
+    background-color: var(--color-mine-shaft);
+  }
+}

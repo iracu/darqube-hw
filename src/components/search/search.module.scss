@@ -1,0 +1,25 @@
+.search {
+  width: 162px;
+  height: 30px;
+  display: flex;
+  padding: 8px 10px;
+  border-radius: 6px;
+  align-items: center;
+  background: var(--color-cod-gray);
+
+  svg {
+    overflow: inherit;
+  }
+
+  input {
+    padding: 8px 10px;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(var(--color-active));
+    background: var(--color-cod-gray);
+
+    &::placeholder {
+      color: var(--color-dove-gray);
+    }
+  }
+}

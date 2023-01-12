@@ -1,0 +1,10 @@
+.linkButton {
+  display: flex;
+  align-items: center;
+  padding-right: 17px;
+  border-right: 1px solid rgba(var(--color-active), 0.08);
+
+  svg {
+    margin-right: 11px;
+  }
+}
